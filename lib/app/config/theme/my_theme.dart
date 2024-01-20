@@ -13,17 +13,19 @@ class MyTheme {
     scaffoldBackgroundColor: Colors.white,
     appBarTheme: const AppBarTheme(
       elevation: 0,
-      iconTheme: IconThemeData(color: MyColors.primary_500),
-    ),
-    buttonTheme: ButtonThemeData(
-      textTheme: ButtonTextTheme.primary,
-      buttonColor: MyColors.primary_500,
-      disabledColor: MyColors.primary_500,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+      iconTheme: IconThemeData(color: MyColors.white),
+      backgroundColor: MyColors.primary_500,
+      foregroundColor: MyColors.white,
     ),
     textButtonTheme: TextButtonThemeData(
       style: TextButton.styleFrom(
         foregroundColor: MyColors.primary_500,
+      ),
+    ),
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        backgroundColor: MyColors.secondary_400,
+        foregroundColor: Colors.white, // text color
       ),
     ),
   );

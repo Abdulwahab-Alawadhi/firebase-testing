@@ -1,4 +1,22 @@
 {
-  "login": "login",
-  "register": "Register"
+  "@@locale": "en",
+  "register": "Register",
+  "email": "Email",
+  "password": "Password",
+  "login": "Login",
+  "dontHaveAnAccount": "Dont't have an account",
+  "registerNow": "Register Now",
+  "alreadyHaveAnAccount": "Already have an account",
+  "pleaseLogin": "Please login",
+  "userName": "User Name",
+  "googleLogin": "Google Login",
+  "home": "Home",
+  "location": "Locations",
+  "profile": "Profile",
+  "users": "Users",
+  "errorFetchingUsers": "Error fetching users",
+  "noUsersFound": "No users found",
+  "photoGallery": "Photo Gallery",
+  "cameraImage": "Camera Image",
+  "cancel": "Cancel"
 }
